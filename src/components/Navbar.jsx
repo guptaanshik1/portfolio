@@ -113,7 +113,7 @@ const Navbar = () => {
               StackOverflow <FaStackOverflow size={30} />
             </a>
           </li>
-          <li className="w-[200px] h-[60px] flex justify-between items-center ml-[-140px] hover:ml-[-4px] duration-400 bg-[#c8c8c7]">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-4px] duration-400 bg-[#c8c8c7]">
             <a
               className="flex justify-between items-center w-full text-[#f85d5d]"
               href="/"
@@ -121,7 +121,7 @@ const Navbar = () => {
               Email <HiOutlineMail size={30} />
             </a>
           </li>
-          <li className="w-[200px] h-[60px] flex justify-between items-center ml-[-140px] hover:ml-[-4px] duration-400 bg-[#5d65f7]">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-4px] duration-400 bg-[#5d65f7]">
             <a
               className="flex justify-between items-center w-full text-[#130e12]"
               href="/"
