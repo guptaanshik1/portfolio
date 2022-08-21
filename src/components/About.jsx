@@ -5,7 +5,7 @@ const About = () => {
     <div name="about" className="w-full h-screen">
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full grid gap-8">
-          <div className="sm:text-center pb-8 px-4 grid-flow-col-dense">
+          <div className="sm:text-center pb-8 px-4">
             <p className="border-b-4 font-bold sm:text-6xl">About</p>
           </div>
 
