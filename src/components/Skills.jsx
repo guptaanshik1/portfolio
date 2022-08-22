@@ -16,12 +16,12 @@ import mongo from '../assets/mongo.png'
 const Skills = () => {
   return (
     <div className='w-full h-screen'>
-        <div className="max-w-[1000px] mx-auto w-full h-full flex flex-col justify-center">
-            <div className="border-b-4 text-center">
-                <p className="font-bold text-4xl">Skills</p>
+        <div className="pt-32 max-w-[1000px] mx-auto w-full h-full flex flex-col justify-center">
+            <div className="text-center pb-8 px-4">
+                <p className="border-b-4 font-bold sm:text-6xl text-4xl">Skills</p>
             </div>
 
-            <div className='w-full grid sm:grid-cols-4 grid-cols-2 gap-4 py-8'>
+            <div className='w-full grid sm:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-4 py-8 px-4'>
                 <div className="rounded-[80%] shadow-md shadow-[#040c16] hover:scale-110 duration-500">
                     <img className="w-20 mx-auto" src={react} alt="react" />
                     <p className="my-4 text-center">ReactJS</p>

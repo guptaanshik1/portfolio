@@ -16,7 +16,7 @@ const Navbar = () => {
   const handleToggle = () => setToggleNav(!toggleNav);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 font-bold text-black-400 set-background">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 font-bold text-black-400 set-background z-20">
       <div>
         <img src="" alt="logo" style={{ width: "50px" }} />
       </div>
