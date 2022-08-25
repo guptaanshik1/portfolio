@@ -11,6 +11,8 @@ import { HiOutlineMail } from "react-icons/hi";
 import { RiNewspaperLine } from "react-icons/ri";
 import { Link } from "react-scroll";
 
+import nameLogo from '../assets/nameLogoFinal.png'
+
 const Navbar = () => {
   const [toggleNav, setToggleNav] = useState(false);
   const handleToggle = () => setToggleNav(!toggleNav);
@@ -18,7 +20,7 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 font-bold text-black-400 set-background z-20">
       <div>
-        <img src="" alt="logo" style={{ width: "50px" }} />
+        <img src={nameLogo} alt="logo" style={{ width: "100px" }} />
       </div>
 
       <ul className="hidden md:flex">

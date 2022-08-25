@@ -12,11 +12,11 @@ const About = () => {
           <div></div>
 
           <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
-            <div className="sm:text-right text-4xl text-[#fff]">
+            <div className="sm:text-right text-4xl text-[#b2a4a4] tracking-wide">
               <p>Hi I am Anshik Gupta, nice to meet you</p>
             </div>
             <div>
-              <p>
+              <p className="tracking-wide text-2xl">
                 I have just started my journey as backend engineer. I am
                 passionate towards becoming a full stack engineer in the future.
                 My fields of intrests are full stack web development
