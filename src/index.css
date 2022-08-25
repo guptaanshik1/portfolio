@@ -38,13 +38,13 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 10em;
+  height: 15em;
 }
 
 .hover-content:hover {
   background-image: linear-gradient(
-        to right,
-        rgba(112, 157, 255, 0.8),
-        hsla(242, 74%, 61%, 0.8)   
+        to bottom,
+        rgba(247, 248, 252, 0.8),
+        hsla(242, 84%, 48%, 0.8) 
     )!important;
 }

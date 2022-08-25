@@ -5,8 +5,8 @@ const About = () => {
     <div name="about" className="w-full h-screen">
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full grid gap-8">
-          <div className="sm:text-center pb-8 px-4">
-            <p className="border-b-4 font-bold sm:text-6xl">About</p>
+          <div className="text-center pb-8 px-4">
+            <p className="border-b-4 font-bold sm:text-6xl text-4xl">About</p>
           </div>
 
           <div></div>
@@ -19,7 +19,7 @@ const About = () => {
               <p>
                 I have just started my journey as backend engineer. I am
                 passionate towards becoming a full stack engineer in the future.
-                My fields of intrests are full stack web development and devops
+                My fields of intrests are full stack web development
                 which I am still learning. I also like to make open source
                 projects.
               </p>
