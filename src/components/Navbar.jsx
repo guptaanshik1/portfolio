@@ -25,27 +25,27 @@ const Navbar = () => {
 
       <ul className="hidden md:flex">
         <li>
-          <Link to="home" smooth={true} duration={500}>
+          <Link to="home" className="hover:text-white hover:scale-110 duration-500" smooth={true} duration={500}>
             Home
           </Link>
         </li>
         <li>
-          <Link to="about" smooth={true} duration={500}>
+          <Link to="about" className="hover:text-white hover:scale-110 duration-500" smooth={true} duration={500}>
             About
           </Link>
         </li>
         <li>
-          <Link to="skills" smooth={true} duration={500}>
+          <Link to="skills" className="hover:text-white hover:scale-110 duration-500" smooth={true} duration={500}>
             Skills
           </Link>
         </li>
         <li>
-          <Link to="work" smooth={true} duration={500}>
+          <Link to="work" className="hover:text-white hover:scale-110 duration-500" smooth={true} duration={500}>
             Work
           </Link>
         </li>
         <li>
-          <Link to="contact" smooth={true} duration={500}>
+          <Link to="contact" className="hover:text-white hover:scale-110 duration-500" smooth={true} duration={500}>
             Contact
           </Link>
         </li>
@@ -63,27 +63,27 @@ const Navbar = () => {
         }
       >
         <li className="py-4">
-          <Link to="home" smooth={true} duration={500}>
+          <Link className="hover:text-white hover:scale-110 duration-500" to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
         <li className="py-4">
-          <Link to="about" smooth={true} duration={500}>
+          <Link className="hover:text-white hover:scale-110 duration-500" to="about" smooth={true} duration={500}>
             About
           </Link>
         </li>
         <li className="py-4">
-          <Link to="skills" smooth={true} duration={500}>
+          <Link className="hover:text-white hover:scale-110 duration-500" to="skills" smooth={true} duration={500}>
             Skills
           </Link>
         </li>
         <li className="py-4">
-          <Link to="projects" smooth={true} duration={500}>
+          <Link className="hover:text-white hover:scale-110 duration-500" to="projects" smooth={true} duration={500}>
             Projects
           </Link>
         </li>
         <li className="py-4">
-          <Link to="contact" smooth={true} duration={500}>
+          <Link className="hover:text-white hover:scale-110 duration-500" to="contact" smooth={true} duration={500}>
             Contact
           </Link>
         </li>
