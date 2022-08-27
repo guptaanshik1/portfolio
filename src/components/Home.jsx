@@ -7,11 +7,11 @@ const Home = () => {
   return (
     <div name="home" className="w-full h-screen">
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center items-center h-full">
-        <div className="lg:hidden w-[50%] mb-4 flex justify-between items-center px-4">
+        <div className="lg:hidden sm:w-[50%] mb-4 flex justify-between items-center gap-4">
           <div className="rounded-full p-2 border-2 bg-blue-600 cursor-pointer hover:scale-110 duration-500">
             <a
               className="flex justify-between items-center w-full text-white"
-              href=""
+              href="https://www.linkedin.com/in/anshik-gupta-5a99ab192/"
             >
               <FaLinkedin size={30} />
             </a>
@@ -20,7 +20,7 @@ const Home = () => {
           <div className="rounded-full p-2 border-2 bg-[#181818] cursor-pointer hover:scale-110 duration-500">
             <a
               className="flex justify-between items-center w-full text-white"
-              href=""
+              href="https://github.com/guptaanshik1"
             >
               <FaGithub size={30} />
             </a>
@@ -29,7 +29,7 @@ const Home = () => {
           <div className="rounded-full p-2 border-2 bg-[#7c7c7b] cursor-pointer hover:scale-110 duration-500">
             <a
               className="flex justify-between items-center w-full text-[#f78c11]"
-              href=""
+              href="https://stackoverflow.com/users/10961399/anshik-gupta"
             >
               <FaStackOverflow size={30} />
             </a>
@@ -47,17 +47,17 @@ const Home = () => {
           <div className="rounded-full p-2 border-2 bg-[#5d65f7] cursor-pointer hover:scale-110 duration-500">
             <a
               className="flex justify-between items-center w-full text-[#130e12]"
-              href=""
+              href="https://drive.google.com/file/d/1Ecxmh0dXftm9VOP-Z4OClViFxsT_EpaF/view?usp=sharing"
             >
               <RiNewspaperLine size={30} />
             </a>
           </div>
         </div>
-        <p className="text-[#fff]">Hi, I am</p>
-        <h1 className="font-bold text-4xl sm:text-5xl text-center">
+        <p className="text-[#a1a1a1] font-bold sm:text-3xl">Hi, I am</p>
+        <h1 className="font-bold text-4xl sm:text-6xl text-center text-justify">
           Anshik Gupta
         </h1>
-        <h2 className="font-bold sm:text-3xl text-center">Backend Engineer</h2>
+        <h2 className="font-bold sm:text-4xl text-center text-justify">Backend Engineer</h2>
       </div>
     </div>
   );

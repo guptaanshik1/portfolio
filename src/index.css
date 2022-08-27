@@ -3,16 +3,12 @@
 @tailwind utilities;
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
 body {
-  background-image: radial-gradient(
-      circle farthest-corner at 32.7% 82.7%,
-      rgba(173,0,171,1) 8.3%,
-      rgba(15,51,92,1) 79.4%
-    )!important;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -20,11 +16,7 @@ body {
 }
 
 .set-background {
-  background-image: radial-gradient(
-      circle farthest-corner at 32.7% 82.7%,
-      rgba(173,0,171,1) 8.3%,
-      rgba(15,51,92,1) 79.4%
-    )!important;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
 }
 
 @layer base {
@@ -43,8 +35,13 @@ body {
 
 .hover-content:hover {
   background-image: linear-gradient(
-        to bottom,
-        rgba(247, 248, 252, 0.8),
-        hsla(242, 84%, 48%, 0.8) 
-    )!important;
+    to bottom,
+    rgba(252, 252, 255, 0.949),
+    hsla(78, 81%, 68%, 0.8)
+  ) !important;
+}
+
+.active {
+  border-bottom: 2px solid gray;
+  padding-bottom: 0.40em;
 }
