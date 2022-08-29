@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div name="home" className="w-full h-screen">
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center items-center h-full">
-        <div className="lg:hidden sm:w-[50%] mb-4 flex justify-between items-center gap-4">
+        <div className="lg:hidden sm:w-[50%] mb-4 flex justify-between items-center sm:gap-4 gap-2">
           <div className="rounded-full p-2 border-2 bg-blue-600 cursor-pointer hover:scale-110 duration-500">
             <a
               className="flex justify-between items-center w-full text-white"
@@ -57,7 +57,11 @@ const Home = () => {
         <h1 className="font-bold text-4xl sm:text-6xl text-center text-justify">
           Anshik Gupta
         </h1>
-        <h2 className="font-bold sm:text-4xl text-center text-justify">Backend Engineer</h2>
+        <h4 className="font-bold sm:text-4xl text-[#777676] text-2xl text-center text-justify">Backend Engineer</h4>
+        <p className='text-[#8892b0] py-4 max-w-[700px] text-center text-justify'>
+          I am currently working as a Backend Engineer. I am a Full Stack Web Dev and open source enthusiast.
+          You can connect with me using the links.
+        </p>
       </div>
     </div>
   );
