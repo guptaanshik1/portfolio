@@ -58,7 +58,7 @@ const Home = () => {
           Anshik Gupta
         </h1>
         <h4 className="font-bold sm:text-4xl text-[#777676] text-2xl text-center text-justify">Backend Engineer</h4>
-        <p className='text-[#8892b0] py-4 max-w-[700px] text-center text-justify'>
+        <p className='text-[#4b5980] py-4 max-w-[700px] text-center text-justify'>
           I am currently working as a Backend Engineer. I am a Full Stack Web Dev and open source enthusiast.
           You can connect with me using the links.
         </p>

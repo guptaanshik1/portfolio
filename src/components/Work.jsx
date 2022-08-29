@@ -11,7 +11,7 @@ const Work = () => {
     <div name="work" className="w-full h-auto">
       <div className="max-w-[1000px] mx-auto w-full flex flex-col justify-center h-full">
         <div className="text-center pb-8 px-4">
-          <p className="border-b-4 border-gray-500 font-bold sm:text-6xl text-4xl">Work</p>
+          <p className="border-b-4 border-gray-500 font-bold sm:text-6xl text-3xl text-[#2d2e31ca]">Work</p>
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 px-8">

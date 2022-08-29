@@ -18,7 +18,7 @@ const Skills = () => {
     <div name="skills" className='w-full h-[250vh]'>
         <div className="max-w-[1000px] mx-auto w-full h-full flex flex-col justify-center">
             <div className="text-center pb-8 px-4">
-                <p className="border-b-4 border-gray-500 font-bold sm:text-6xl text-4xl">Skills</p>
+                <p className="border-b-4 border-gray-500 font-bold sm:text-6xl text-3xl text-[#2d2e31ca]">Skills</p>
             </div>
 
             <div className='w-full grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 grid-cols-2 gap-4 py-8 px-4'>
