@@ -57,10 +57,14 @@ const Home = () => {
         <h1 className="font-bold text-4xl sm:text-6xl text-center text-justify">
           Anshik Gupta
         </h1>
-        <h4 className="font-bold sm:text-4xl text-[#777676] text-2xl text-center text-justify">Backend Engineer</h4>
-        <p className='text-[#4b5980] py-4 max-w-[700px] text-center text-justify'>
-          I am currently working as a Backend Engineer. I am a Full Stack Web Dev and open source enthusiast.
-          You can connect with me using the links.
+        <h4 className="font-bold sm:text-4xl text-[#777676] text-2xl text-center text-justify">
+          Frontend Engineer
+        </h4>
+        <p className="text-[#4b5980] py-4 max-w-[700px] text-center text-justify">
+          I am a frontend engineer with a passion for crafting shareable and
+          configurable code. Committed to delivering high-quality solutions. My
+          expertise lies in leveraging modern technologies and adhering to
+          industry standards to achieve exceptional frontend results.
         </p>
       </div>
     </div>
