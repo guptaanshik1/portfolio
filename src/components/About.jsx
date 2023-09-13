@@ -24,7 +24,7 @@ const About = () => {
                 In my current role as a frontend engineer, I have amassed over
                 one year of experience in using React and TypeScript for web
                 development. My fields of intrests are full stack web
-                development and open source development I also like to
+                development and open source development. I also like to
                 contribute to open source projects.
               </p>
             </div>

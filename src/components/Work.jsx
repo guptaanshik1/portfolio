@@ -6,6 +6,7 @@ import blog1 from "../assets/cronBlog.png";
 import blog2 from "../assets/rrtkBlog.png";
 import youtube_clone from "../assets/youtube_clone.png";
 import excel_clone from "../assets/excel_clone.png";
+import draw from "../assets/draw.jpg";
 
 const Work = () => {
   return (
@@ -82,6 +83,24 @@ const Work = () => {
               </span>
               <div className="pt-4 text-center">
                 <a href="https://drive.google.com/file/d/1OlFmgUJV3OLD_8palkf7Ld4f8bVK0edK/view?usp=sharing">
+                  <button className="text-center font-bold rounded-md p-4 bg-gray-500 text-white hover:bg-white hover:text-gray-500">
+                    Open
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            style={{ backgroundImage: `url(${draw})` }}
+            className="shadow-md rounded-md group container flex justify-center items-center mx-auto hover-content object-contain"
+          >
+            <div className="opacity-0 group-hover:opacity-50">
+              <span className="text-2xl text-gray-900 font-bold">
+                Live Draw
+              </span>
+              <div className="pt-4 text-center">
+                <a href="https://drive.google.com/file/d/1cvVeTdHzbTkAoNBdLZs55xcGaF2sywdS/view?usp=drive_link">
                   <button className="text-center font-bold rounded-md p-4 bg-gray-500 text-white hover:bg-white hover:text-gray-500">
                     Open
                   </button>
